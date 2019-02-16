@@ -19,7 +19,7 @@ const RootStack = createStackNavigator(
     Form: {
       screen: EventForm,
       navigationOptions: () => ({
-        title: 'add an event'
+        title: 'Add an event'
       })
     }
   },
@@ -28,7 +28,10 @@ const RootStack = createStackNavigator(
   }
 );
 const AppContainer = createAppContainer(RootStack);
+
 export default AppContainer;
+
+
 // export default createStackNavigator({
 //   list:{
 //     screen: EventList,
